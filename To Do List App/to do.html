@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <main class="app-shell">
+      <header class="top-bar">
+        <div>
+          <p class="eyebrow">Productivity</p>
+          <h1>My To-Do List</h1>
+        </div>
+        <span class="date-badge">Today</span>
+      </header>
+
+      <div class="input-area">
+        <input id="taskInput" type="text" placeholder="Enter a task..." aria-label="Task input" />
+        <button id="addBtn" class="primary-btn" type="button">Add Task</button>
+      </div>
+
+      <div class="toolbar">
+        <button id="delete-selected" class="secondary-btn danger" type="button" hidden>Delete Selected</button>
+        <button id="clearBtn" class="secondary-btn" type="button">Clear All</button>
+      </div>
+
+      <ul id="taskList" class="task-list" aria-live="polite"></ul>
+      <p id="counter" class="counter">Total tasks: 0</p>
+    </main>
+  </body>
+</html>
+
