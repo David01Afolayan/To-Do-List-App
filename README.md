@@ -2,7 +2,7 @@
 
 A simple, fast and responsive To-Do List App to manage your daily tasks.
 
-Live Demo: [Add your Vercel/Netlify link here]
+Live Demo: https://your-live-link.vercel.app
 
 ## Features
 - Add, edit, delete tasks
@@ -18,11 +18,20 @@ Live Demo: [Add your Vercel/Netlify link here]
 - Tailwind CSS / CSS3
 - Local Storage API
 
-## Screenshots
-(Add screenshot here)
-
 ## Getting Started
 
 1. Clone the repo:
-```bash
 git clone https://github.com/David01Afolayan/To-Do-List-App.git
+
+2. Install dependencies:
+npm install
+
+3. Run the app:
+npm run dev
+
+## Author
+David Afolayan - Full Stack Engineer
+GitHub: @David01Afolayan
+
+## License
+MIT
