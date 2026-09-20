@@ -2,7 +2,7 @@
 
 A simple, fast and responsive To-Do List App to manage your daily tasks.
 
-Live Demo: https://your-live-link.vercel.app
+Live Demo: https://david01afolayan.github.io/To-Do-List-App/
 
 ## Features
 - Add, edit, delete tasks
